@@ -1,4 +1,4 @@
-#include<stdio.h>
+п»ї#include<stdio.h>
 #include<locale.h>
 
 const float INCH = 2.54f;
@@ -9,13 +9,13 @@ float cm;
 void main() {
 	setlocale(LC_CTYPE, "RUS");
 
-	puts("Введите дюймы");
+	puts("Р’РІРµРґРёС‚Рµ РґСЋР№РјС‹");
 	scanf_s("%d", &inches);
 	cm = INCH * inches;
-	printf("%d дюйм = %3.1f см\n", inches, cm);
+	printf("%d РґСЋР№Рј = %3.1f СЃРј\n", inches, cm);
 
-	puts("Введите пульгады");
+	puts("Р’РІРµРґРёС‚Рµ РїСѓР»СЊРіР°РґС‹");
 	scanf_s("%d", &inches);
 	cm = PULGADA * inches;
-	printf("%d пульгад = %3.1f см\n", inches, cm);
+	printf("%d РїСѓР»СЊРіР°Рґ = %3.1f СЃРј\n", inches, cm);
 }

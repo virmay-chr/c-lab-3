@@ -1,19 +1,19 @@
-#include<stdio.h>
+п»ї#include<stdio.h>
 #include<locale.h>
 
 int a, b;
 
 void main() {
 	setlocale(LC_CTYPE, "RUS");
-	puts("Введите число A");
+	puts("Р’РІРµРґРёС‚Рµ С‡РёСЃР»Рѕ A");
 	scanf_s("%d", &a);
 	printf("A = %d\n", a);
 
-	puts("Введите число B");
+	puts("Р’РІРµРґРёС‚Рµ С‡РёСЃР»Рѕ B");
 	scanf_s("%d", &b);
 	printf("B = %d\n", b);
 
-	puts("Введите число FFFFFFF");
+	puts("Р’РІРµРґРёС‚Рµ С‡РёСЃР»Рѕ FFFFFFF");
 	scanf_s("%d", &b);
 	printf("B = %d\n", b);
 

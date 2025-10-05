@@ -1,4 +1,4 @@
-#include<stdio.h>
+п»ї#include<stdio.h>
 #include<locale.h>
 
 float a, b;
@@ -6,11 +6,11 @@ float a, b;
 void main() {
 	setlocale(LC_CTYPE, "RUS");
 
-	puts("Введите число A");
+	puts("Р’РІРµРґРёС‚Рµ С‡РёСЃР»Рѕ A");
 	scanf_s("%f", &a);
 	printf("A = %3.1f\n", a);
 
-	puts("Введите число B");
+	puts("Р’РІРµРґРёС‚Рµ С‡РёСЃР»Рѕ B");
 	scanf_s("%f", &b);
 	printf("B = %3.1f\n", b);
 
